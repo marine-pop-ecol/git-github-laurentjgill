@@ -1,0 +1,19 @@
+---
+title: "Assignment 1"
+author: "Lauren Gill"
+date: "14/10/2021"
+output: pdf_document
+---
+
+Lauren Gill
+**University of British Columbia**
+*turquoise*
+
+```{r}
+ x = c(1,2,3)
+ y = c(3,4,5)
+ randomdata <- data.frame(x, y)
+ install.packages("here")
+ library("here")
+write.csv(randomdata, here("./data/student-data.csv"))
+```
